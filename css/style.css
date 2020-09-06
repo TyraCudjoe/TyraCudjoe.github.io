@@ -1,13 +1,14 @@
 html {
     background-color: rgb(35, 35, 35);
 }
+
 .navbar-right {
     float: none;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    margin-bottom: 20px;    
+    margin-bottom: 20px;
 }
 
 header {
@@ -22,7 +23,23 @@ header {
     margin-left: 20px;
 }
 
-li > a {
+li>a {
     margin: 5px;
     color: white;
 }
+
+a:hover {
+    color: white;
+}
+
+.btn {
+    letter-spacing: 0;
+    cursor: pointer;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+.btn:hover {
+    letter-spacing: 5px;
+}
+
