@@ -26,17 +26,23 @@ header {
 li>a {
     margin: 5px;
     color: white;
+    font-family: 'Mukta', sans-serif;
 }
 
-a:hover {
+li>a:hover {
     color: white;
+}
+
+nav>a:hover {
+    color: rgb(35, 35, 35);
 }
 
 .btn {
     letter-spacing: 0;
     cursor: pointer;
     text-decoration: none;
-    transition: 0.2s;
+    transition: 0.4s;
+    transition-delay: 0.12s;
 }
 
 .btn:hover {
