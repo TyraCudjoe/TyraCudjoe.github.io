@@ -1,0 +1,13 @@
+.navbar-Nav {
+    align-items: flex-end;
+    display: block;
+}
+
+.navbar-right {
+    float: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-bottom: 20px;
+}
