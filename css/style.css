@@ -52,10 +52,11 @@ navbar-toggler-icon {
 
 .card {
     margin-top: 250px;
-    margin-left: 800px;
+    margin-left: auto;
+    margin-right: auto;
     background-color: rgb(35, 35, 35);
-    width: 500px;
-    box-shadow: 0px 0px 22px 12px rgba(0,0,0,0.75);
+    width: 480px;
+    box-shadow: 0px 0px 22px 12px rgba(0, 0, 0, 0.75);
 }
 
 @media (hover:hover) {
@@ -63,6 +64,7 @@ navbar-toggler-icon {
         letter-spacing: 5px;
     }
 }
+
 
 @media only screen and (max-width: 600px) {
 
@@ -79,7 +81,7 @@ navbar-toggler-icon {
         color: rgb(137, 136, 136);
         font-family: 'Mukta', sans-serif;
     }
-    
+
     li>a:hover {
         color: rgb(137, 136, 136);
     }
@@ -89,7 +91,7 @@ navbar-toggler-icon {
         margin-left: 37.5px;
         background-color: rgb(35, 35, 35);
         width: 300px;
-        box-shadow: 0px 0px 22px 12px rgba(0,0,0,0.75);
+        box-shadow: 0px 0px 22px 12px rgba(0, 0, 0, 0.75);
     }
 
 }
