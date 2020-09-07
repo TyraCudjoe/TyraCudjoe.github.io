@@ -10,6 +10,10 @@ header {
     background-color: black;
 }
 
+.navbar-right {
+    margin-right: 40px;
+}
+
 .navbar-brand {
     font-family: 'Roboto', sans-serif;
     color: rgb(35, 35, 35);
