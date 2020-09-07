@@ -2,8 +2,8 @@ html {
     background-color: rgb(35, 35, 35);
 }
 
-.navbar-center {
-     
+nav>div {
+    float: right;
 }
 
 header {
