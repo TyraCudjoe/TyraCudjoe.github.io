@@ -1,5 +1,6 @@
-html {
+body {
     background-color: rgb(35, 35, 35);
+    z-index: 1;
 }
 
 nav>div {
@@ -47,6 +48,13 @@ navbar-toggler-icon {
     transition: 0.4s;
     transition-delay: 0.12s;
     width: 100%;
+}
+
+.card {
+    margin-top: 250px;
+    margin-left: 800px;
+    background-color: rgb(35, 35, 35);
+    width: 500px;
 }
 
 @media (hover:hover) {
