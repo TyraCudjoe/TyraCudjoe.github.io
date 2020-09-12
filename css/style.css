@@ -74,6 +74,12 @@ div>img {
     flex: 1 1 auto;
 }
 
+img {
+    width: auto;
+    height: 500px;
+    margin-top: 200px;
+}
+
 
 
 @media only screen and (max-width: 600px) {
