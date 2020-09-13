@@ -81,6 +81,7 @@ img {
     height: 500px;
     width: auto;
     margin-left: -175px;
+    border-radius: 5px;
 }
 
 main>div>div>p {
