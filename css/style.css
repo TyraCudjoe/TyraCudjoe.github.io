@@ -98,13 +98,19 @@ navbar-toggler-icon {
 }
 
 .headline {
-    margin-top: 100px;
-    margin-left: 200px;
+    margin-top: 200px;
+    margin-left: 300px;
     color: white;
 }
 
 .headline>h1 {
     font-family: 'Rubik', sans-serif;
+}
+
+.img {
+    width: 900px;
+    height: auto;
+    border-radius: 24px;
 }
 
 @media only screen and (max-width: 600px) {
