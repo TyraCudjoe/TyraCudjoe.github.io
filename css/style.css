@@ -127,7 +127,7 @@ navbar-toggler-icon {
 }
 
 .img {
-    width: 900px;
+    width: 1200px;
     height: auto;
     border-radius: 24px;
 }
@@ -135,6 +135,16 @@ navbar-toggler-icon {
 .textAbout {
     max-width: 70%;
     margin: auto;
+    color: white;
+    margin-top: 300px;
+}
+
+.textAbout>h1 {
+    font-size: 50px;
+}
+
+footer {
+    text-align: center;
 }
 
 @media only screen and (max-width: 600px) {
