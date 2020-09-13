@@ -62,8 +62,8 @@ navbar-toggler-icon {
 }
 
 .about {
-    color: white;  
-    font-size: large;  
+    color: white;
+    font-size: large;
 }
 
 .about:hover {
@@ -72,28 +72,39 @@ navbar-toggler-icon {
 
 .blue {
     color: rgb(0, 0, 140);
-    
+
 }
 
 .blue:hover {
-    color: rgb(0, 0, 140);    
+    color: rgb(0, 0, 140);
 }
 
 .letter-space {
-    font-family: 'Open Sans', sans-serif;  
-    font-size:130px;    
-    margin-top: 35px;  
+    font-family: 'Open Sans', sans-serif;
+    font-size: 130px;
+    margin-top: 35px;
     transition: 0.4s;
 }
 
-
-.letter-space:hover {
-    letter-spacing: 15px;
-    font-size: 160px;   
+@media (hover:hover) {
+    .letter-space:hover {
+        letter-spacing: 15px;
+        font-size: 160px;
+    }
 }
 
 .anchor {
     text-decoration: none !important;
+}
+
+.headline {
+    margin-top: 100px;
+    margin-left: 200px;
+    color: white;
+}
+
+.headline>h1 {
+    font-family: 'Rubik', sans-serif;
 }
 
 @media only screen and (max-width: 600px) {
@@ -116,10 +127,16 @@ navbar-toggler-icon {
         color: rgb(137, 136, 136);
     }
 
-    img {
-        height: 125px;
-        width: auto;
-        margin-left: 0;
+    .home {
+        margin-top: 200px;
+        margin-left: 35px;
+    }
+
+    .letter-space {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 32px;
+        margin-top: 15px;
+        transition: 0.4s;
     }
 
 }
