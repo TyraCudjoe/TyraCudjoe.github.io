@@ -144,6 +144,46 @@ navbar-toggler-icon {
     font-size: 50px;
 }
 
+.socials {
+    margin-left: 100px;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none !important;
+    border-radius: 50%;
+    color: white;    
+    transition: 0.4s;
+}
+
+.fa-facebook:hover {
+    background-color: #3b5998;
+    color: white;
+    padding: 10px;
+}
+
+.fa-twitter:hover {
+    color: white;
+    background-color: rgb(29, 161, 242) ;
+}
+
+.fa-linkedin:hover {
+    color: white;
+    background-color: #0072b1;
+}
+
+.fa-youtube:hover {
+    color: white;
+    background-color: rgb(255, 0, 0);
+}
+
+.fa-instagram:hover {
+    color: #8a3ab9;
+}
+
 footer {
     text-align: center;
 }
