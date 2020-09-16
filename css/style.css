@@ -145,43 +145,57 @@ navbar-toggler-icon {
 }
 
 .socials {
-    margin-left: 100px;
+    margin-left: 600px;
+    margin-top: 275px
 }
 
 .fa {
     padding: 20px;
     font-size: 30px;
-    width: 30px;
+    width: 50px;
     text-align: center;
     text-decoration: none !important;
-    border-radius: 50%;
-    color: white;    
+    color: white;
+    width: 70px;
+    font-size: 65px;
     transition: 0.4s;
+    margin: 40px;
 }
 
 .fa-facebook:hover {
     background-color: #3b5998;
     color: white;
+    border-radius: 12px;
     padding: 10px;
 }
 
 .fa-twitter:hover {
     color: white;
-    background-color: rgb(29, 161, 242) ;
+    background-color: rgb(29, 161, 242);
+    padding: 10px;
+    border-radius: 12px;
 }
 
 .fa-linkedin:hover {
     color: white;
     background-color: #0072b1;
+    padding: 10px;
+    border-radius: 12px;
 }
 
 .fa-youtube:hover {
     color: white;
     background-color: rgb(255, 0, 0);
+    padding: 10px;
+    border-radius: 12px;
 }
 
 .fa-instagram:hover {
-    color: #8a3ab9;
+    color: white ;
+    background-color: #3f729b ;
+    text-align: center;
+    padding: 10px;
+    border-radius: 12px;
 }
 
 footer {
