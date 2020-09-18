@@ -178,46 +178,49 @@ navbar-toggler-icon {
     margin: 40px;
 }
 
-.fa-facebook:hover {
-    background-color: #3b5998;
-    color: white;
-    width: 110px;
-    border-radius: 9px;
-    padding: 12px;
+@media (hover:hover) {
+    .fa-facebook:hover {
+        background-color: #3b5998;
+        color: white;
+        width: 110px;
+        border-radius: 9px;
+        padding: 12px;
+    }
+
+    .fa-twitter:hover {
+        color: white;
+        background-color: rgb(29, 161, 242);
+        width: 110px;
+        padding: 9px;
+        border-radius: 12px;
+    }
+
+    .fa-linkedin:hover {
+        color: white;
+        background-color: #0072b1;
+        width: 110px;
+        padding: 9px;
+        border-radius: 12px;
+    }
+
+    .fa-youtube:hover {
+        color: white;
+        background-color: rgb(255, 0, 0);
+        width: 110px;
+        padding: 9px;
+        border-radius: 12px;
+    }
+
+    .fa-instagram:hover {
+        color: white;
+        background-color: #3f729b;
+        width: 110px;
+        text-align: center;
+        padding: 9px;
+        border-radius: 12px;
+    }
 }
 
-.fa-twitter:hover {
-    color: white;
-    background-color: rgb(29, 161, 242);
-    width: 110px;
-    padding: 9px;
-    border-radius: 12px;
-}
-
-.fa-linkedin:hover {
-    color: white;
-    background-color: #0072b1;
-    width: 110px;
-    padding: 9px;
-    border-radius: 12px;
-}
-
-.fa-youtube:hover {
-    color: white;
-    background-color: rgb(255, 0, 0);
-    width: 110px;
-    padding: 9px;
-    border-radius: 12px;
-}
-
-.fa-instagram:hover {
-    color: white;
-    background-color: #3f729b;
-    width: 110px;
-    text-align: center;
-    padding: 9px;
-    border-radius: 12px;
-}
 
 footer {
     text-align: center;
