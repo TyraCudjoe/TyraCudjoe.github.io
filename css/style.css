@@ -122,6 +122,16 @@ navbar-toggler-icon {
     color: rgb(0, 0, 140);
 }
 
+.spanAbout2 {
+    color: rgb(0, 0, 140);
+    transition: 0.4s;
+}
+
+.spanAbout2:hover {
+    color:red;
+    font-size: 30px;
+}
+
 .imgAbout {
     text-align: right;
     margin-top: 500px;
