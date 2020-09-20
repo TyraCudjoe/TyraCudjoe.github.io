@@ -128,7 +128,7 @@ navbar-toggler-icon {
 }
 
 .spanAbout2:hover {
-    color:red;
+    color: #063c9a;
     font-size: 30px;
 }
 
@@ -159,12 +159,13 @@ navbar-toggler-icon {
 
 .resume {
     color: rgb(0, 0, 140);
-    text-decoration: none !important;    
+    text-decoration: none !important;
     transition: 0.6s;
 }
 
 .resume:hover {
     margin-left: 50px;
+    font-size: 30px;
     color: #063c9a;
 }
 
