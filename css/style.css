@@ -148,10 +148,24 @@ navbar-toggler-icon {
     margin: auto;
     color: white;
     margin-top: 300px;
+    margin-bottom: 350px;
+    font-family: 'Kumbh Sans', sans-serif;
 }
 
 .textAbout>h1 {
     font-size: 50px;
+    font-weight: bold;
+}
+
+.resume {
+    color: rgb(0, 0, 140);
+    text-decoration: none !important;    
+    transition: 0.6s;
+}
+
+.resume:hover {
+    margin-left: 50px;
+    color: #063c9a;
 }
 
 .headline2 {
