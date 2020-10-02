@@ -56,6 +56,10 @@ navbar-toggler-icon {
     }
 }
 
+footer {
+    text-align: center;
+}
+
 .home {
     margin-top: 225px;
     margin-left: 325px;
@@ -246,10 +250,53 @@ navbar-toggler-icon {
     }
 }
 
-
-footer {
-    text-align: center;
+.portfolioWork {
+    margin-top: 175px;
+    margin-left: 225px;
+    font-family: 'Open Sans', sans-serif;
 }
+
+.holiday {
+    color: whitesmoke;
+    transition: 0.4s;
+}
+
+.holiday:hover {
+    margin-left: 45px;
+}
+
+.holiday>a>h1 {
+    color: rgb(0, 0, 140);
+    font-weight: 600;
+    font-size: 60px;
+}
+
+.holiday>a {
+    text-decoration: none !important;
+    color: white;
+}
+
+.genesis {
+    margin-top: 30px;
+    transition: 0.4s;
+}
+
+.genesis:hover {
+    margin-left: 45px;
+}
+
+.genesis>a>h1 {
+    color: rgb(0, 0, 140);
+    font-weight: 600;
+    font-size: 60px;
+}
+
+.genesis>a {
+    text-decoration: none !important;
+    color: white;
+}
+
+
 
 @media only screen and (max-width: 600px) {
 
