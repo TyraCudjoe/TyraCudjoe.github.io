@@ -113,16 +113,6 @@ footer {
     color: rgb(0, 0, 140);
 }
 
-.spanAbout2 {
-    color: rgb(0, 0, 140);
-    transition: 0.4s;
-}
-
-.spanAbout2:hover {
-    color: #063c9a;
-    font-size: 30px;
-}
-
 .imgAbout {
     text-align: right;
     margin-top: 500px;
@@ -342,6 +332,17 @@ footer {
         margin-top: -200px;
         margin-right: 25px;
         margin-bottom: 100px;
+    }
+
+    .headline {
+        margin-top: 175px;
+        margin-left: 25px;
+        color: rgba(255, 255, 255, 0.891);
+    }
+
+    .headline>h1 {
+        font-family: 'Rubik', sans-serif;
+        font-size: 30px;
     }
 
 }
