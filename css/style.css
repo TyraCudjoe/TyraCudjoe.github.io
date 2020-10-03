@@ -50,12 +50,6 @@ navbar-toggler-icon {
     width: 100%;
 }
 
-@media (hover:hover) {
-    .btn:hover {
-        letter-spacing: 5px;
-    }
-}
-
 footer {
     text-align: center;
 }
@@ -90,13 +84,6 @@ footer {
     transition: 0.4s;
 }
 
-@media (hover:hover) {
-    .letter-space:hover {
-        letter-spacing: 15px;
-        font-size: 160px;
-    }
-}
-
 .anchor {
     text-decoration: none !important;
 }
@@ -114,7 +101,7 @@ footer {
 .headline {
     margin-top: 250px;
     margin-left: 300px;
-    color: white;
+    color: rgba(255, 255, 255, 0.891);
 }
 
 .headline>h1 {
@@ -150,7 +137,7 @@ footer {
 .textAbout {
     max-width: 70%;
     margin: auto;
-    color: white;
+    color: rgba(255, 255, 255, 0.878);
     margin-top: 300px;
     margin-bottom: 350px;
     font-family: 'Kumbh Sans', sans-serif;
@@ -159,6 +146,7 @@ footer {
 .textAbout>h1 {
     font-size: 50px;
     font-weight: bold;
+    color: rgba(255, 255, 255, 0.823);
 }
 
 .resume {
@@ -208,6 +196,15 @@ footer {
 }
 
 @media (hover:hover) {
+    .btn:hover {
+        letter-spacing: 5px;
+    }
+
+    .letter-space:hover {
+        letter-spacing: 15px;
+        font-size: 160px;
+    }
+
     .fa-facebook:hover {
         background-color: #3b5998;
         color: white;
@@ -248,27 +245,33 @@ footer {
         padding: 9px;
         border-radius: 12px;
     }
+
+    .holiday:hover {
+        margin-left: 45px;
+    }
+
+    .genesis:hover {
+        margin-left: 45px;
+    }
 }
 
 .portfolioWork {
     margin-top: 175px;
-    margin-left: 225px;
+    margin-left: 300px;
     font-family: 'Open Sans', sans-serif;
 }
 
 .holiday {
     color: whitesmoke;
-    transition: 0.4s;
+    transition: 0.8s;
 }
 
-.holiday:hover {
-    margin-left: 45px;
-}
+
 
 .holiday>a>h1 {
-    color: rgb(0, 0, 140);
+    color: rgb(21, 21, 221);
     font-weight: 600;
-    font-size: 60px;
+    font-size: 100px;
 }
 
 .holiday>a {
@@ -278,17 +281,13 @@ footer {
 
 .genesis {
     margin-top: 30px;
-    transition: 0.4s;
-}
-
-.genesis:hover {
-    margin-left: 45px;
+    transition: 0.8s;
 }
 
 .genesis>a>h1 {
-    color: rgb(0, 0, 140);
+    color: rgb(21, 21, 221);
     font-weight: 600;
-    font-size: 60px;
+    font-size: 100px;
 }
 
 .genesis>a {
