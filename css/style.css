@@ -256,8 +256,6 @@ footer {
     transition: 0.8s;
 }
 
-
-
 .holiday>a>h1 {
     color: rgb(21, 21, 221);
     font-weight: 600;
@@ -444,4 +442,23 @@ footer {
         padding: 9px;
         border-radius: 12px;
     }
+
+    .portfolioWork {
+        margin-top: 165px;
+        margin-left: 35px;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    .holiday>a>h1 {
+        color: rgb(2, 2, 214);
+        font-weight: 600;
+        font-size: 30px;
+    }
+
+    .genesis>a>h1 {
+        color:  rgb(2, 2, 214);
+        font-weight: 600;
+        font-size: 30px;
+    }
+
 }
