@@ -329,6 +329,11 @@ footer {
         transition: 0.4s;
     }
 
+    .home {
+        margin-top: 240px;
+        margin-left: 32px;
+    }
+
     .home>img {
         border-radius: 10px;
         float: right;
