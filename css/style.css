@@ -248,7 +248,23 @@ footer {
 .portfolioWork {
     margin-top: 175px;
     margin-left: 300px;
+    margin-bottom: 120px;
     font-family: 'Open Sans', sans-serif;
+}
+
+.headline3 {
+    margin-top: 175px;
+    margin-left: 210px;    
+    font-family: 'Rubik', sans-serif;
+}
+
+.headline3>h1 {
+    font-weight: bold;
+    color:  rgba(255, 255, 255, 0.878);
+}
+
+.headline3>h1>span {
+    color: rgb(0, 0, 140);
 }
 
 .holiday {
@@ -257,9 +273,9 @@ footer {
 }
 
 .holiday>a>h1 {
-    color: rgb(21, 21, 221);
+    color:  rgb(0, 0, 140);
     font-weight: 600;
-    font-size: 100px;
+    font-size: 50px;
 }
 
 .holiday>a {
@@ -268,14 +284,14 @@ footer {
 }
 
 .genesis {
-    margin-top: 30px;
+    margin-top: 70px;
     transition: 0.8s;
 }
 
 .genesis>a>h1 {
-    color: rgb(21, 21, 221);
+    color:  rgb(0, 0, 140);
     font-weight: 600;
-    font-size: 100px;
+    font-size: 50px;
 }
 
 .genesis>a {
@@ -384,9 +400,10 @@ footer {
     }
 
     .socials {
-        margin-left: 90px;
+        margin-left: 0px;
         margin-top: 115px;
         margin-bottom: 80px;
+        text-align: center;
     }
     
     .fa {
@@ -445,18 +462,36 @@ footer {
 
     .portfolioWork {
         margin-top: 165px;
-        margin-left: 35px;
+        margin-left: 30px;
+        max-width: 90%;
         font-family: 'Open Sans', sans-serif;
     }
 
+    .headline3 {
+        margin-top: 125px;
+        margin-left: 30px;    
+        max-width: auto;
+        font-family: 'Rubik', sans-serif;
+    }
+    
+    .headline3>h1 {
+        font-weight: bold;
+        font-size: 35px;
+        color:  rgba(255, 255, 255, 0.878);
+    }
+    
+    .headline3>h1>span {
+        color: rgb(0, 0, 140);
+    }
+
     .holiday>a>h1 {
-        color: rgb(2, 2, 214);
+        color: rgb(0, 0, 140);
         font-weight: 600;
         font-size: 30px;
     }
 
     .genesis>a>h1 {
-        color:  rgb(2, 2, 214);
+        color:  rgb(0, 0, 140);
         font-weight: 600;
         font-size: 30px;
     }
