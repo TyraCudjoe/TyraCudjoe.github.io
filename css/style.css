@@ -579,4 +579,86 @@ footer {
         text-decoration: none !important;
         font-size: 40px;
     }
+
+    .headline2 {
+        max-width: 80%;
+        margin-top: 150px;
+        margin-left: 75px;
+        max-width: 90%;
+        color: rgba(255, 255, 255, 0.878);
+    }
+
+    .headline2>h1 {
+        font-family: 'Rubik', sans-serif;
+        font-size: 70px;
+    }
+
+    .headline2>h4 {
+        font-family: 'Kumbh Sans', sans-serif;
+        font-weight: bold;
+        font-size: 27px;
+        margin-top: 80px;
+        text-align: left;
+    }
+
+    .socials {
+        margin-left: 0px;
+        margin-top: 115px;
+        margin-bottom: 80px;
+        text-align: center;
+    }
+
+    .fa {
+        padding: 20px;
+        font-size: 30px;
+        width: 50px;
+        text-align: center;
+        text-decoration: none !important;
+        color: white;
+        width: 70px;
+        font-size: 100px;
+        transition: 0.6s;
+        margin: 40px;
+    }
+
+    .fa-facebook {
+        background-color: #3b5998;
+        color: white;
+        width: 110px;
+        border-radius: 9px;
+        padding: 12px;
+    }
+
+    .fa-twitter {
+        color: white;
+        background-color: rgb(29, 161, 242);
+        width: 110px;
+        padding: 9px;
+        border-radius: 12px;
+    }
+
+    .fa-linkedin {
+        color: white;
+        background-color: #0072b1;
+        width: 110px;
+        padding: 9px;
+        border-radius: 12px;
+    }
+
+    .fa-youtube {
+        color: white;
+        background-color: rgb(255, 0, 0);
+        width: 110px;
+        padding: 9px;
+        border-radius: 12px;
+    }
+
+    .fa-instagram {
+        color: white;
+        background-color: #3f729b;
+        width: 110px;
+        text-align: center;
+        padding: 9px;
+        border-radius: 12px;
+    }
 }
