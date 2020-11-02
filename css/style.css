@@ -11,6 +11,7 @@ header {
     background-color: black;
 }
 
+
 .navbar-right {
     margin-right: 40px;
 }
@@ -59,6 +60,16 @@ footer {
     margin-left: 325px;
 }
 
+.home>img {
+    border-radius: 10px;
+    float: right;
+    width: auto;
+    height: 420px;
+    margin-top: -400px;
+    margin-right: 25px;
+    margin-bottom: 100px;
+}
+
 .about {
     color: white;
     font-size: large;
@@ -92,7 +103,7 @@ footer {
     border-radius: 10px;
     float: right;
     width: auto;
-    height: 750px;
+    height: 450px;
     margin-top: -600px;
     margin-right: 150px;
     margin-bottom: 100px;
@@ -267,6 +278,11 @@ footer {
     color: rgb(0, 0, 140);
 }
 
+.headline3>p {
+    color: rgba(255, 255, 255, 0.878);
+    font-size: 20px;
+}
+
 .holiday {
     color: whitesmoke;
     transition: 0.8s;
@@ -298,6 +314,8 @@ footer {
     text-decoration: none !important;
     color: white;
 }
+
+
 
 
 
@@ -474,6 +492,11 @@ footer {
         color: rgba(255, 255, 255, 0.878);
     }
 
+    .headline3>p {
+        color: rgba(255, 255, 255, 0.878);
+        font-size: 17px;
+    }
+
     .headline3>h1>span {
         color: rgb(0, 0, 140);
     }
@@ -492,7 +515,7 @@ footer {
 
 }
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (min-width: 768px) {
     .navbar-brand {
         font-family: 'Roboto', sans-serif;
         color: rgb(137, 136, 136);
@@ -521,10 +544,25 @@ footer {
         border-radius: 10px;
         float: right;
         width: auto;
-        height: 500px;
+        height: 420px;
         margin-top: -400px;
         margin-right: 25px;
         margin-bottom: 100px;
+    }
+
+    .home {
+        margin-top: 225px;
+        margin-left: 40px;
+    }
+
+    .about {
+        color: white;
+        font-size: large;
+    }
+
+    .blue {
+        color: rgb(0, 0, 140);
+
     }
 
     .letter-space {
@@ -661,4 +699,58 @@ footer {
         padding: 9px;
         border-radius: 12px;
     }
+
+    .portfolioWork {
+        margin-top: 165px;
+        margin-left: 75px;
+        max-width: 90%;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    .headline3 {
+        margin-top: 125px;
+        margin-left: 75px;
+        max-width: auto;
+        font-family: 'Rubik', sans-serif;
+    }
+
+    .headline3>h1 {
+        font-weight: bold;
+        font-size: 65px;
+        color: rgba(255, 255, 255, 0.878);
+    }
+
+    .headline3>h1>span {
+        color: rgb(0, 0, 140);
+    }
+
+    .headline3>p {
+        color: rgba(255, 255, 255, 0.878);
+        font-size: 20px;
+    }
+
+    .holiday>a>h1 {
+        color: rgb(0, 0, 140);
+        font-weight: 600;
+        font-size: 65px;
+    }
+
+    .holiday>a {
+        text-decoration: none !important;
+        color: white;
+        font-size: 30px;
+    }
+
+    .genesis>a>h1 {
+        color: rgb(0, 0, 140);
+        font-weight: 600;
+        font-size: 65px;
+    }
+
+    .genesis>a {
+        text-decoration: none !important;
+        color: white;
+        font-size: 30px;
+    }
+
 }
