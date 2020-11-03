@@ -11,7 +11,6 @@ header {
     background-color: black;
 }
 
-
 .navbar-right {
     margin-right: 40px;
 }
@@ -52,7 +51,8 @@ navbar-toggler-icon {
 }
 
 footer {
-    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .home {
@@ -60,13 +60,13 @@ footer {
     margin-left: 325px;
 }
 
-.home>img {
+.homeImg {
     border-radius: 10px;
     float: right;
     width: auto;
-    height: 420px;
-    margin-top: -400px;
-    margin-right: 25px;
+    height: 450px;
+    margin-top: 200px;
+    margin-right: 150px;
     margin-bottom: 100px;
 }
 
@@ -81,7 +81,6 @@ footer {
 
 .blue {
     color: rgb(0, 0, 140);
-
 }
 
 .blue:hover {
@@ -97,16 +96,6 @@ footer {
 
 .anchor {
     text-decoration: none !important;
-}
-
-.home>img {
-    border-radius: 10px;
-    float: right;
-    width: auto;
-    height: 450px;
-    margin-top: -600px;
-    margin-right: 150px;
-    margin-bottom: 100px;
 }
 
 .headline {
@@ -194,18 +183,15 @@ footer {
     .btn:hover {
         letter-spacing: 5px;
     }
-
     .letter-space:hover {
         letter-spacing: 15px;
         font-size: 160px;
     }
-
     .resume:hover {
         margin-left: 50px;
         font-size: 30px;
         color: #063c9a;
     }
-
     .fa-facebook:hover {
         background-color: #3b5998;
         color: white;
@@ -213,7 +199,6 @@ footer {
         border-radius: 9px;
         padding: 12px;
     }
-
     .fa-twitter:hover {
         color: white;
         background-color: rgb(29, 161, 242);
@@ -221,7 +206,6 @@ footer {
         padding: 9px;
         border-radius: 12px;
     }
-
     .fa-linkedin:hover {
         color: white;
         background-color: #0072b1;
@@ -229,7 +213,6 @@ footer {
         padding: 9px;
         border-radius: 12px;
     }
-
     .fa-youtube:hover {
         color: white;
         background-color: rgb(255, 0, 0);
@@ -237,7 +220,6 @@ footer {
         padding: 9px;
         border-radius: 12px;
     }
-
     .fa-instagram:hover {
         color: white;
         background-color: #3f729b;
@@ -246,11 +228,9 @@ footer {
         padding: 9px;
         border-radius: 12px;
     }
-
     .holiday:hover {
         margin-left: 45px;
     }
-
     .genesis:hover {
         margin-left: 45px;
     }
@@ -315,12 +295,7 @@ footer {
     color: white;
 }
 
-
-
-
-
 @media only screen and (max-width: 600px) {
-
     .navbar-brand {
         font-family: 'Roboto', sans-serif;
         color: rgb(137, 136, 136);
@@ -328,28 +303,23 @@ footer {
         font-size: 30px;
         margin-left: 20px;
     }
-
     li>a {
         margin: 5px;
         color: rgb(137, 136, 136);
         font-family: 'Mukta', sans-serif;
     }
-
     li>a:hover {
         color: rgb(137, 136, 136);
     }
-
     .letter-space {
         font-family: 'Open Sans', sans-serif;
         font-size: 32px;
         margin-top: 15px;
     }
-
     .home {
         margin-top: 240px;
         margin-left: 32px;
     }
-
     .home>img {
         border-radius: 10px;
         float: right;
@@ -359,30 +329,24 @@ footer {
         margin-right: 25px;
         margin-bottom: 100px;
     }
-
     .headline {
         margin-top: 175px;
         margin-left: 25px;
         color: rgba(255, 255, 255, 0.891);
     }
-
     .headline>h1 {
         font-family: 'Rubik', sans-serif;
         font-size: 30px;
     }
-
     .imgAbout {
         text-align: center;
         margin-top: 400px;
-
     }
-
     .img {
         width: 90%;
         height: auto;
         border-radius: 24px;
     }
-
     .textAbout {
         max-width: 80%;
         margin: auto;
@@ -391,33 +355,28 @@ footer {
         margin-bottom: 350px;
         font-family: 'Kumbh Sans', sans-serif;
     }
-
     .headline2 {
         margin-top: 150px;
         margin-left: 35px;
         max-width: 90%;
         color: rgba(255, 255, 255, 0.878);
     }
-
     .headline2>h1 {
         font-family: 'Rubik', sans-serif;
         font-size: 35px;
     }
-
     .headline2>h4 {
         font-family: 'Kumbh Sans', sans-serif;
         font-weight: bold;
         margin-top: 150px;
         text-align: left;
     }
-
     .socials {
         margin-left: 0px;
         margin-top: 115px;
         margin-bottom: 80px;
         text-align: center;
     }
-
     .fa {
         padding: 20px;
         font-size: 30px;
@@ -430,7 +389,6 @@ footer {
         transition: 0.6s;
         margin: 40px;
     }
-
     .fa-facebook {
         background-color: #3b5998;
         color: white;
@@ -438,7 +396,6 @@ footer {
         border-radius: 9px;
         padding: 12px;
     }
-
     .fa-twitter {
         color: white;
         background-color: rgb(29, 161, 242);
@@ -446,7 +403,6 @@ footer {
         padding: 9px;
         border-radius: 12px;
     }
-
     .fa-linkedin {
         color: white;
         background-color: #0072b1;
@@ -454,7 +410,6 @@ footer {
         padding: 9px;
         border-radius: 12px;
     }
-
     .fa-youtube {
         color: white;
         background-color: rgb(255, 0, 0);
@@ -462,7 +417,6 @@ footer {
         padding: 9px;
         border-radius: 12px;
     }
-
     .fa-instagram {
         color: white;
         background-color: #3f729b;
@@ -471,48 +425,40 @@ footer {
         padding: 9px;
         border-radius: 12px;
     }
-
     .portfolioWork {
         margin-top: 165px;
         margin-left: 30px;
         max-width: 90%;
         font-family: 'Open Sans', sans-serif;
     }
-
     .headline3 {
         margin-top: 125px;
         margin-left: 30px;
         max-width: auto;
         font-family: 'Rubik', sans-serif;
     }
-
     .headline3>h1 {
         font-weight: bold;
         font-size: 35px;
         color: rgba(255, 255, 255, 0.878);
     }
-
     .headline3>p {
         color: rgba(255, 255, 255, 0.878);
         font-size: 17px;
     }
-
     .headline3>h1>span {
         color: rgb(0, 0, 140);
     }
-
     .holiday>a>h1 {
         color: rgb(0, 0, 140);
         font-weight: 600;
         font-size: 30px;
     }
-
     .genesis>a>h1 {
         color: rgb(0, 0, 140);
         font-weight: 600;
         font-size: 30px;
     }
-
 }
 
 @media only screen and (min-width: 768px) {
@@ -523,23 +469,19 @@ footer {
         font-size: 40px;
         margin-left: 20px;
     }
-
     li>a {
         margin: 5px;
         color: rgb(137, 136, 136);
         font-size: 23px;
         font-family: 'Mukta', sans-serif;
     }
-
     li>a:hover {
         color: rgb(137, 136, 136);
     }
-
     .home {
         margin-top: 300px;
         margin-left: 32px;
     }
-
     .home>img {
         border-radius: 10px;
         float: right;
@@ -549,50 +491,40 @@ footer {
         margin-right: 25px;
         margin-bottom: 100px;
     }
-
     .home {
         margin-top: 225px;
         margin-left: 40px;
     }
-
     .about {
         color: white;
         font-size: large;
     }
-
     .blue {
         color: rgb(0, 0, 140);
-
     }
-
     .letter-space {
         font-family: 'Open Sans', sans-serif;
         font-size: 90px;
         margin-top: 15px;
     }
-
     .headline {
         margin-top: 175px;
         margin-left: 70px;
         color: rgba(255, 255, 255, 0.891);
     }
-
     .headline>h1 {
         font-family: 'Rubik', sans-serif;
         font-size: 55px;
     }
-
     .imgAbout {
         text-align: center;
         margin-top: 400px;
     }
-
     .img {
         width: 90%;
         height: auto;
         border-radius: 24px;
     }
-
     .textAbout {
         max-width: 80%;
         margin: auto;
@@ -601,23 +533,19 @@ footer {
         margin-bottom: 350px;
         font-family: 'Kumbh Sans', sans-serif;
     }
-
     .textAbout>h1 {
         font-size: 75px;
         font-weight: bold;
         color: rgba(255, 255, 255, 0.823);
     }
-
     .textAbout>h4 {
         font-size: 40px;
     }
-
     .resume {
         color: rgb(0, 0, 140);
         text-decoration: none !important;
         font-size: 40px;
     }
-
     .headline2 {
         max-width: 80%;
         margin-top: 150px;
@@ -625,12 +553,10 @@ footer {
         max-width: 90%;
         color: rgba(255, 255, 255, 0.878);
     }
-
     .headline2>h1 {
         font-family: 'Rubik', sans-serif;
         font-size: 70px;
     }
-
     .headline2>h4 {
         font-family: 'Kumbh Sans', sans-serif;
         font-weight: bold;
@@ -638,14 +564,12 @@ footer {
         margin-top: 80px;
         text-align: left;
     }
-
     .socials {
         margin-left: 0px;
         margin-top: 115px;
         margin-bottom: 80px;
         text-align: center;
     }
-
     .fa {
         padding: 20px;
         font-size: 30px;
@@ -658,7 +582,6 @@ footer {
         transition: 0.6s;
         margin: 40px;
     }
-
     .fa-facebook {
         background-color: #3b5998;
         color: white;
@@ -666,7 +589,6 @@ footer {
         border-radius: 9px;
         padding: 12px;
     }
-
     .fa-twitter {
         color: white;
         background-color: rgb(29, 161, 242);
@@ -674,7 +596,6 @@ footer {
         padding: 9px;
         border-radius: 12px;
     }
-
     .fa-linkedin {
         color: white;
         background-color: #0072b1;
@@ -682,7 +603,6 @@ footer {
         padding: 9px;
         border-radius: 12px;
     }
-
     .fa-youtube {
         color: white;
         background-color: rgb(255, 0, 0);
@@ -690,7 +610,6 @@ footer {
         padding: 9px;
         border-radius: 12px;
     }
-
     .fa-instagram {
         color: white;
         background-color: #3f729b;
@@ -699,58 +618,48 @@ footer {
         padding: 9px;
         border-radius: 12px;
     }
-
     .portfolioWork {
         margin-top: 165px;
         margin-left: 75px;
         max-width: 90%;
         font-family: 'Open Sans', sans-serif;
     }
-
     .headline3 {
         margin-top: 125px;
         margin-left: 75px;
         max-width: auto;
         font-family: 'Rubik', sans-serif;
     }
-
     .headline3>h1 {
         font-weight: bold;
         font-size: 65px;
         color: rgba(255, 255, 255, 0.878);
     }
-
     .headline3>h1>span {
         color: rgb(0, 0, 140);
     }
-
     .headline3>p {
         color: rgba(255, 255, 255, 0.878);
         font-size: 20px;
     }
-
     .holiday>a>h1 {
         color: rgb(0, 0, 140);
         font-weight: 600;
         font-size: 65px;
     }
-
     .holiday>a {
         text-decoration: none !important;
         color: white;
         font-size: 30px;
     }
-
     .genesis>a>h1 {
         color: rgb(0, 0, 140);
         font-weight: 600;
         font-size: 65px;
     }
-
     .genesis>a {
         text-decoration: none !important;
         color: white;
         font-size: 30px;
     }
-
 }
