@@ -56,16 +56,14 @@ footer {
 
 .home {
     margin-top: 225px;
-    margin-left: 325px;
 }
 
 .homeImg {
     border-radius: 10px;
     float: right;
     width: auto;
-    height: 450px;
-    margin-top: 200px;
-    margin-right: 150px;
+    height: 500px;
+    margin-top: 250px;
     margin-bottom: 100px;
 }
 
