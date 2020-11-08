@@ -422,3 +422,25 @@ footer {
         text-align: center;
     }
 }
+
+@media screen and (max-width: 992px) {
+    .home {
+        margin-top: 225px;
+        margin-left: 0px;
+    }
+    .letter-space {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 80px;
+        margin-top: 35px;
+        transition: 0.4s;
+    }
+    .homeImg {
+        border-radius: 10px;
+        float: right;
+        width: auto;
+        height: 450px;
+        margin-top: 200px;
+        margin-right: 0px;
+        margin-bottom: 100px;
+    }
+}
