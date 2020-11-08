@@ -397,6 +397,25 @@ footer {
         font-size: 35px;
         font-family: 'Kumbh Sans', sans-serif;
     }
+    .headline2 {
+        margin-top: 125px;
+        margin-left: 20px;
+        color: white;
+    }
+    .headline2>h1 {
+        font-family: 'Rubik', sans-serif;
+        font-size: 40px;
+    }
+    .headline2>h4 {
+        margin-top: 70px;
+        font-weight: 400;
+        text-align: left;
+    }
+    .socials {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 125px;
+    }
     footer {
         /* margin-left: auto;
         margin-right: auto; */
