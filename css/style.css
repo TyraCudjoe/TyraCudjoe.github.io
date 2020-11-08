@@ -487,6 +487,29 @@ footer {
     .genesis>a>p {
         font-size: 22px;
     }
+    .headline2 {
+        margin-top: 125px;
+        margin-left: 20px;
+        color: white;
+    }
+    .headline2>h1 {
+        font-family: 'Rubik', sans-serif;
+        font-size: 40px;
+    }
+    .headline2>h4 {
+        margin-top: 70px;
+        font-weight: 400;
+        text-align: left;
+    }
+    .about {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .socials {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 125px;
+    }
     footer {
         text-align: center;
     }
