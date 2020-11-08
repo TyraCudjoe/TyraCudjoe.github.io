@@ -288,7 +288,7 @@ footer {
 }
 
 .genesis>a>h1 {
-    color: rgb(0, 0, 140);
+    color: #00008c;
     font-weight: 600;
     font-size: 50px;
 }
@@ -321,7 +321,7 @@ footer {
     }
     @-webkit-keyframes colorchange {
         0% {
-            color: blue;
+            color: #00008c;
         }
         20% {
             color: #1a91bc;
@@ -330,7 +330,7 @@ footer {
             color: #2dbc1a;
         }
         60% {
-            color: #bcb71a;
+            color: #dad314;
         }
         80% {
             color: #f11e0f;
@@ -345,5 +345,24 @@ footer {
         width: auto;
         height: 450px;
         display: none;
+    }
+    .headline>h1 {
+        margin-left: 15px;
+        font-family: 'Rubik', sans-serif;
+        font-size: 40px;
+    }
+    .imgAbout {
+        margin-top: 250px;
+    }
+    .img {
+        width: 300px;
+        height: auto;
+        border-radius: 24px;
+        float: right;
+    }
+    footer {
+        /* margin-left: auto;
+        margin-right: auto; */
+        text-align: center;
     }
 }
