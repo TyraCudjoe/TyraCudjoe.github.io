@@ -101,6 +101,7 @@ footer {
 
 .headline {
     margin-top: 250px;
+    margin-left: 20px;
     color: rgba(255, 255, 255, 0.891);
 }
 
@@ -125,11 +126,12 @@ footer {
 }
 
 .textAbout {
-    max-width: 80%;
-    margin: auto;
-    color: rgba(255, 255, 255, 0.878);
+    max-width: 70%;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 300px;
     margin-bottom: 350px;
+    color: rgba(255, 255, 255, 0.878);
     font-family: 'Kumbh Sans', sans-serif;
 }
 
