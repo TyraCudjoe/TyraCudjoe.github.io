@@ -469,6 +469,24 @@ footer {
     .textAbout>h4 {
         font-size: 28px;
     }
+    .holiday>a>h1 {
+        color: #00008c;
+        font-weight: 600;
+        font-size: 60px;
+        font-family: 'Kumbh Sans', sans-serif;
+    }
+    .holiday>a>p {
+        font-size: 22px;
+    }
+    .genesis>a>h1 {
+        color: #00008c;
+        font-weight: 600;
+        font-size: 55px;
+        font-family: 'Kumbh Sans', sans-serif;
+    }
+    .genesis>a>p {
+        font-size: 22px;
+    }
     footer {
         text-align: center;
     }
