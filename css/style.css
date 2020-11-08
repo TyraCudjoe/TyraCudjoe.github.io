@@ -232,29 +232,32 @@ footer {
         border-radius: 12px;
     }
     .holiday:hover {
-        margin-left: 45px;
+        margin-left: 13px;
     }
     .genesis:hover {
-        margin-left: 45px;
+        margin-left: 13px;
     }
 }
 
 .portfolioWork {
-    margin-top: 175px;
-    margin-left: 300px;
+    margin-top: 110px;
     margin-bottom: 120px;
-    font-family: 'Open Sans', sans-serif;
+}
+
+.portFolio {
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .headline3 {
-    margin-top: 175px;
-    margin-left: 210px;
-    font-family: 'Rubik', sans-serif;
+    margin-top: 150px;
+    /* margin-left: 100px; */
 }
 
 .headline3>h1 {
     font-weight: bold;
-    color: rgba(255, 255, 255, 0.878);
+    color: white;
+    font-family: 'Kumbh Sans', sans-serif;
 }
 
 .headline3>h1>span {
@@ -262,12 +265,13 @@ footer {
 }
 
 .headline3>p {
-    color: rgba(255, 255, 255, 0.878);
+    color: white;
     font-size: 20px;
+    font-family: 'Kumbh Sans', sans-serif;
 }
 
 .holiday {
-    color: whitesmoke;
+    color: white;
     transition: 0.8s;
 }
 
@@ -275,10 +279,12 @@ footer {
     color: rgb(0, 0, 140);
     font-weight: 600;
     font-size: 50px;
+    font-family: 'Kumbh Sans', sans-serif;
 }
 
 .holiday>a {
     text-decoration: none !important;
+    font-family: 'Kumbh Sans', sans-serif;
     color: white;
 }
 
@@ -291,10 +297,12 @@ footer {
     color: #00008c;
     font-weight: 600;
     font-size: 50px;
+    font-family: 'Kumbh Sans', sans-serif;
 }
 
 .genesis>a {
     text-decoration: none !important;
+    font-family: 'Kumbh Sans', sans-serif;
     color: white;
 }
 
@@ -359,6 +367,35 @@ footer {
         height: auto;
         border-radius: 24px;
         float: right;
+    }
+    .headline3 {
+        margin-top: 150px;
+        margin-left: 10px;
+        font-family: 'Kumbh Sans', sans-serif;
+    }
+    .headline3>h1 {
+        font-weight: bold;
+        font-size: 30px;
+        color: white;
+        font-family: 'Kumbh Sans', sans-serif;
+    }
+    .portfolioWork {
+        margin-top: 100px;
+        margin-left: 15px;
+        margin-bottom: 120px;
+        font-family: 'Open Sans', sans-serif;
+    }
+    .holiday>a>h1 {
+        color: rgb(0, 0, 140);
+        font-weight: 600;
+        font-size: 40px;
+        font-family: 'Kumbh Sans', sans-serif;
+    }
+    .genesis>a>h1 {
+        color: #00008c;
+        font-weight: 600;
+        font-size: 35px;
+        font-family: 'Kumbh Sans', sans-serif;
     }
     footer {
         /* margin-left: auto;
