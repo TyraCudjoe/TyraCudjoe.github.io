@@ -250,11 +250,11 @@ footer {
 
 .headline3 {
     margin-top: 150px;
-    /* margin-left: 100px; */
 }
 
 .headline3>h1 {
     font-weight: bold;
+    font-size: 45px;
     color: white;
     font-family: 'Kumbh Sans', sans-serif;
 }
@@ -281,6 +281,10 @@ footer {
     font-family: 'Kumbh Sans', sans-serif;
 }
 
+.holiday>a>p {
+    font-size: 20px;
+}
+
 .holiday>a {
     text-decoration: none !important;
     font-family: 'Kumbh Sans', sans-serif;
@@ -297,6 +301,10 @@ footer {
     font-weight: 600;
     font-size: 50px;
     font-family: 'Kumbh Sans', sans-serif;
+}
+
+.genesis>a>p {
+    font-size: 20px;
 }
 
 .genesis>a {
