@@ -163,11 +163,19 @@ footer {
     text-align: left;
 }
 
-.socials {
-    margin-left: 585px;
-    margin-top: 125px;
-    margin-bottom: 110px;
+.parent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+
+/* .socials {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+} */
 
 .fa {
     padding: 20px;
@@ -228,6 +236,13 @@ footer {
         background-color: #3f729b;
         width: 110px;
         text-align: center;
+        padding: 9px;
+        border-radius: 12px;
+    }
+    .fa-github:hover {
+        color: white;
+        background-color: rgb(17, 87, 13);
+        width: 110px;
         padding: 9px;
         border-radius: 12px;
     }
